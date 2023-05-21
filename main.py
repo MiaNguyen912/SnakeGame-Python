@@ -18,15 +18,6 @@ snake = Snake()
 food = Food()
 score_board = ScoreBoard()
 
-snake.extend()
-snake.extend()
-snake.extend()
-snake.extend()
-snake.extend()
-snake.extend()
-snake.extend()
-snake.extend()
-snake.extend()
 
 # set screen event listening
 screen.onkey(fun=snake.up, key="Up")
